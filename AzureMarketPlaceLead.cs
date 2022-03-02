@@ -15,7 +15,6 @@ namespace marketplaceleadstohubspot
     public class Lead
     {
         public UserDetails userDetails { get; set; }
-        public string leadSource { get; set; }
         public string actionCode { get; set; }
         public string offerTitle { get; set; }
         public string description { get; set; }
